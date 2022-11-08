@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="practice1.css">
+
+    <style>table, th, td {
+        border: 1px solid black;
+      } 
+      .internal {
+  background-color: rgb(4, 253, 83);
+}
+
+.text{
+  color: rgb(251, 249, 249);
+  margin-left: 40px;
+  size: 40px
+}
+
+      </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Labs</title>
+</head>
+
+<body>
+    <h1 align="center">Lab 1 Exploring Tags in HTML</h1>
+    <h1>This is the biggest heading</h1>
+    <h6>This is the smallest heading</h6>
+    <p>This tag is used to write content in a paragraph</p>
+    <p>'ul' tag is used to create an unordered list</p>
+    <ul>
+        <li>Red</li>
+        <li>Blue</li>
+        <li>Green</li>
+    </ul>
+    <p>The table tag is used to create a table and the caption tag creates a heading for the table</p>
+    <table>
+        <caption>Monthly savings</caption>
+        <tr>
+          <th>Month</th>
+          <th>Savings</th>
+        </tr>
+        <tr>
+          <td>January</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>February</td>
+          <td>$50</td>
+        </tr>
+      </table>
+
+      <button style="margin: 1cm" type="button" onclick="alert('This is a button')">Click Me!</button>
+      <p><b>The 'b' tag is used to make a text bold.</b></p>
+      <article>
+        <h2>Hello</h2>
+        <p>The article tag helps in creating independent, self- contained content.</p>
+        </article>
+        <p>To force<br> line breaks<br> in a text,<br> use the br<br> element.</p>
+        <p>dl, dt and dd are three elements are used to create a description list:</p>
+
+      <dl>
+         <dt>Coffee</dt>
+         <dd>Black hot drink</dd>
+         <dt>Milk</dt>
+         <dd>White cold drink</dd>
+      </dl>
+      <p>del is used to strike out a text  <del>blue</del><ins>red</ins> and ins is used to insert a new text instead oof the deleted text.</p>
+      <details>
+        <summary>'Summary' tag</summary>
+        <p>'Summary' tag is used to specify details that the user can close or open on demand</p>
+      </details>
+      <h1 align="center"> Lab2 - including media in html </h1>
+      <img style="height: 5cm;width: 10cm;" src="Default.jpg">
+      <video width="320" height="240" controls>
+        <source src="movie.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag.
+      </video>
+
+      <h1 align="center">Lab 3 Demonstration of html tag parameters</h1>
+      <p class="internal" style="color:black">The background color was changed using a parameter called class.</p>
+
+    <h1 align="center">Lab 4 Styling using inline css</h1>
+    <p style="color:rgb(4, 135, 250); font-size: 50px;">The style parameter helps styling the content withing a tag, such as color, border and margins.</p>
+    <img style="height: 5cm;width: 10cm;" src="Default.jpg">
+
+    <h1 align="center">Lab5 Styling using internal css</h1>
+    <div class="internal text"><p> This was styled using internal styling</p>
+    <img style="height: 5cm;width: 10cm;"  src=Default.jpg> </div>
+
+    <h1 align="center">Lab 6 Styling using .css file</h1>
+    <div class="extst"><p>The styling for this division was done using an external css file. </p></div>
+
+
+
+
+
+
+
+      
+</body>
+</html>
